@@ -1,0 +1,18 @@
+#logo {
+  font-size: 2.0em;
+  color: #e60;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover { color: #f80; text-decoration: none; }
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 600px;
+}

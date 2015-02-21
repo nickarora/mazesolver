@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" 
+    			content="width=device-width, initial-scale=1">
+		<title>Maze Generator!</title>
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/sticky-footer.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container">
+			<center>
+				<h3 id="logo">Maze Solver</h3>
+
+				<script src="lib/underscore-min.js"></script>
+				<script src="lib/jquery.min.js"></script>
+		    <script src="lib/bootstrap.min.js"></script>
+		    <script src="js/cell.js"></script>
+				<script src="js/mazeGenerator.js"></script>
+				<script src="js/mazeTreeNode.js"></script>
+				<script src="js/mazeSolver.js"></script>
+				<script src="js/maze.js"></script>
+
+				<div>
+					<button onclick="generate()" class= "btn btn-primary" >Generate</button>
+					<button onclick="solve()" class= "btn btn-primary" >Solve</button>
+					<br><br>
+				</div>
+				<canvas></canvas>
+			</center>
+			<div>
+				<script>initMaze();</script>
+			</div>
+		</div>
+
+
+	</body>
+
+	<footer class="footer">
+	  <div class="container">
+	  	<center>
+	    <p class="text-muted"> © Nick Arora(2015) | Interested in my work?  Check out my <a href="https://github.com/nickarora">github</a> or <a href="mailto:arora.nick@gmail.com">email</a> me!</p></center>
+	  </div>
+  </footer>
+
+
+</html>
