@@ -1,10 +1,10 @@
 # Maze Solver
 
+[Live Demo][sitelink]
+[sitelink]: http://nickarora.github.io/mazesolver/
+
 ![preview]
 [preview]:	./docs/preview.png
-
-[Demo][sitelink]
-[sitelink]: http://nickarora.github.io/mazesolver/
 
 ## Description
 
