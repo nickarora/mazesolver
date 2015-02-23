@@ -1,7 +1,9 @@
 # Maze Solver
 
-[Demo][sitelink]
+![preview]
+[preview]:	./docs/preview.png
 
+[Demo][sitelink]
 [sitelink]: http://nickarora.github.io/mazesolver/
 
 ## Description
