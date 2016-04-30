@@ -14,7 +14,7 @@ Furthermore, Maze Solver uses a tree data-structure and a breadth first search t
 
 ## Technologies Used
 
-Trellino is built using the following technologies and frameworks
+Maze Solver is built using the following technologies and frameworks
 - [X] JavaScript
 - [X] HTML
 - [X] CSS
